@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Thumbnail Generator</title>
+</head>
+<body>
+<div class="main fw-light">
+    <header>
+        <h4 class="display-6 lh-1 text-white">🖼 Get YouTube Thumbnail</h4>
+    </header>
+    <hr>
+    <label for="url" class="form-label small text-white">Enter YouTube video URL (supports .be, shorts, embed, with timestamps
+        and other clutter)</label>
+
+    <div class="buttons">
+        <button class="btn btn-primary fw-light">👁‍🗨 Get 🖼</button>
+        <button class="btn btn-info fw-light">👀 Get Max 🖼</button>
+        <button class="btn btn-secondary fw-light">👁 Get Max webp</button>
+        <button class="btn btn-success fw-light">⏬ Download</button>
+    </div>
+
+    <img decoding="async" class="center-fit" id="img" title="Click to zoom in/out" src="https://img.youtube.com/vi/k8mOAV0KJLE/maxresdefault.jpg" />
+    <footer>
+        <a class="text-decoration-none" href="https://developergtm.in/" target="_blank" rel="noopener"> @Developergtm.in</a>
+    </footer>
+</div>
+<div id="fullpage" title="Click to zoom in/out"></div>
+<script src="./script.js"></script>
+</body>
+</html>
